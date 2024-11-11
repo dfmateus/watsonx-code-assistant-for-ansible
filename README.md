@@ -135,7 +135,7 @@ Click on the **'Ansible'** icon on VS Code's Activity Bar -> Under **'Ansible Li
 
 <img src="https://github.com/user-attachments/assets/dff0b077-f7ec-4e95-a9dc-9dae174a8a45" alt="playbook-explanation-gif">  
 
-❗ **Note:** ❗
+❗ **NOTE:** ❗
 - _You can run playbook explanation on any existing Ansible playbooks._ 
 - _Playbook explanations are strictly limited to self-contained Full Playbooks—they do not cover task files or role files._
 
@@ -157,13 +157,18 @@ Since every organization is different, **watsonx Code Assistant for Red Hat Ansi
 
 Model Customization is done using **Prompt Tuning:** Empowers organizations to tune its domain-specific LLM with their own Ansible data  
 
-- **Model customization empowers organizations to tune its domain-specific LLM with their own Ansible data**
-- **Customization is beneficial for Ansible because of the many modules that might exist within an Ansible Playbook**
-- **Discovery of unique modules increases quality code recommendations based on organization’s preferences**
+- **_Model customization empowers organizations to tune its domain-specific LLM with their own Ansible data_**
+- **_Customization is beneficial for Ansible because of the many modules that might exist within an Ansible Playbook_**
+- **_Discovery of unique modules increases quality code recommendations based on organization’s preferences_**
 
 <img src="https://github.com/user-attachments/assets/c5d497ac-425b-4494-9a83-9e981285eb6a" alt="model-customization-example-png">
 
-**NOTE:** _You don't need to be a data scientist to effectively use watsonx Code Assistant. The UI provides helpful contextual information and guidance along the way._
+Don't miss out! Discover more information by clicking [**here**](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible#tune-ansible-prereqs).
+
+❗ **NOTE:** ❗
+- _We recommend providing a data set with at least "1,000 samples = 1000 Ansible tasks" to generate better content recommendations._ 
+- _If the data set includes more than one module, it is recommended to provide at least 100 samples per module(Does it mean 100 example of same module usage)_
+- _You don't need to be a data scientist to effectively use watsonx Code Assistant. The UI provides helpful contextual information and guidance along the way._
 
 ---
 
